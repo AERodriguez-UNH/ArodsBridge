@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "ArodsBridge"
   navbar:
-    left:
+    title: Arod's Bridge
+    right:
       - href: index.qmd
-        text: Home
+        text: home
       - about.qmd
+      - posts.qmd # add your posts.qmd file to your navbar!
 
 format:
   html:
